@@ -1,0 +1,6 @@
+@_2302C2FirstAPI_HostAddress = http://localhost:5273
+
+GET {{_2302C2FirstAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

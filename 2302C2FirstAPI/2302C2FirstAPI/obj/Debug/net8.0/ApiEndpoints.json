@@ -1,0 +1,44 @@
+[
+  {
+    "ContainingType": "_2302C2FirstAPI.Controllers.TeamController",
+    "Method": "GetTeams",
+    "RelativePath": "api/Team",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_2302C2FirstAPI.Controllers.TeamController",
+    "Method": "CreateTeam",
+    "RelativePath": "api/Team",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "teamDTO",
+        "Type": "_2302C2FirstAPI.Models.TeamDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_2302C2FirstAPI.Controllers.TestController",
+    "Method": "Get",
+    "RelativePath": "api/Test/{num}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "num",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
