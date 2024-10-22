@@ -3,31 +3,84 @@
     "ContainingType": "_2302C2CodeFirstAPI.Controllers.EventOrganizerController",
     "Method": "GetEvents",
     "RelativePath": "api/EventOrganizer",
-    "HttpMethod": "",
+    "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "_2302C2CodeFirstAPI.Controllers.WeatherForecastController",
-    "Method": "Get",
-    "RelativePath": "WeatherForecast",
+    "ContainingType": "_2302C2CodeFirstAPI.Controllers.EventOrganizerController",
+    "Method": "AddEvent",
+    "RelativePath": "api/EventOrganizer",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ev",
+        "Type": "_2302C2CodeFirstAPI.Models.EventDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_2302C2CodeFirstAPI.Controllers.EventOrganizerController",
+    "Method": "EditEvent",
+    "RelativePath": "api/EventOrganizer",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ev",
+        "Type": "_2302C2CodeFirstAPI.Models.EventDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_2302C2CodeFirstAPI.Controllers.EventOrganizerController",
+    "Method": "DeleteEvent",
+    "RelativePath": "api/EventOrganizer",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ev",
+        "Type": "_2302C2CodeFirstAPI.Models.EventDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_2302C2CodeFirstAPI.Controllers.EventOrganizerController",
+    "Method": "GetEvent",
+    "RelativePath": "api/EventOrganizer/{eventId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "eventId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_2302C2CodeFirstAPI.Controllers.EventOrganizerController",
+    "Method": "GetEventTypes",
+    "RelativePath": "api/EventOrganizer/EventTypes",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
-    "ReturnTypes": [
-      {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[_2302C2CodeFirstAPI.WeatherForecast, 2302C2CodeFirstAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ],
-    "EndpointName": "GetWeatherForecast"
+    "ReturnTypes": []
   }
 ]

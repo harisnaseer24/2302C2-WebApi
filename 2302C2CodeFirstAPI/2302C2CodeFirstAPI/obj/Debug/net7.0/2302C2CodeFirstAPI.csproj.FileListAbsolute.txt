@@ -74,3 +74,4 @@ C:\Users\harisnaseer\OneDrive\Desktop\Haris Naseer\3RD SEMESTER\Web API\2302C2\2
 C:\Users\harisnaseer\OneDrive\Desktop\Haris Naseer\3RD SEMESTER\Web API\2302C2\2302C2CodeFirstAPI\2302C2CodeFirstAPI\obj\Debug\net7.0\2302C2CodeFirstAPI.pdb
 C:\Users\harisnaseer\OneDrive\Desktop\Haris Naseer\3RD SEMESTER\Web API\2302C2\2302C2CodeFirstAPI\2302C2CodeFirstAPI\obj\Debug\net7.0\2302C2CodeFirstAPI.genruntimeconfig.cache
 C:\Users\harisnaseer\OneDrive\Desktop\Haris Naseer\3RD SEMESTER\Web API\2302C2\2302C2CodeFirstAPI\2302C2CodeFirstAPI\obj\Debug\net7.0\ref\2302C2CodeFirstAPI.dll
+C:\Users\harisnaseer\OneDrive\Desktop\Haris Naseer\3RD SEMESTER\Web API\2302C2\2302C2CodeFirstAPI\2302C2CodeFirstAPI\obj\Debug\net7.0\2302C2CodeFirstAPI.sourcelink.json
